@@ -15,7 +15,7 @@ Note:
 ask what is it? 
 describe a person who is elastic
 
-+++?image=assets/elasticity.png&size=auto 90%
+---?image=assets/elasticity.png&size=auto 90%
 
 Note: 
 describie what everything means
