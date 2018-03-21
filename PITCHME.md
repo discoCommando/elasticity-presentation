@@ -1,4 +1,4 @@
-@title[Introduction]
+<!-- @title[Introduction]
 # Petals
 
 ### A GitPitch Presentation Template
@@ -15,7 +15,7 @@ Test note i wonder how it works
 
 @fa[microphone gp-tip](Press S for Speaker Notes)
 
----
+
 
 ## Template Features
 
@@ -26,16 +26,16 @@ Test note i wonder how it works
 - Background Image Scaling |
 - Custom Logo, TOC, and Footnotes |
 
----?code=sample/go/server.go&lang=golang&title=Golang File
+-?code=sample/go/server.go&lang=golang&title=Golang File
 
 @[1,3-6](Present code found within any repo source file.)
 @[8-18](Without ever leaving your slideshow.)
 @[19-28](Using GitPitch code-presenting with (optional) annotations.)
 
---- 
+-  -->
 @title[Introduction]
 
-#Elasticity Management
+# Elasticity Management
 
 Note:
 Introduce yourself. 
@@ -43,13 +43,13 @@ Show overview by showing table of contents.
 Hope not to be boring 
 ---
 @title[Elasticity]
-#Elasticity
+# Elasticity
 
 Note:
 ask what is it? 
 describe a person who is elastic
 
-+++?image=assets/vanjacobson.png&size=auto 90%
++++?image=assets/elasticity.png&size=auto 90%
 
 Note: 
 describie what everything means
