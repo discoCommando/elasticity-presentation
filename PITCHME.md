@@ -26,9 +26,9 @@ give an example with reddit
 ---
 @title[Problems]
 # Problems
-- Elasticity requirements
-- Monitoring
-- Provisioning time 
+- Elasticity requirements |
+- Monitoring |
+- Provisioning time | 
 
 Note:
 of course there are problems with elasticity
@@ -71,8 +71,8 @@ usually, we have quite spare ones that are already setup
 @title[How to make an application more elastic?]
 
 ## How can we make application more elastic?
-- By solving the problems mentioned above 
-- By having a scalable applications
+- By solving the problems mentioned above |
+- By having a scalable applications |
 
 Note: 
 0. ask the question 
@@ -108,8 +108,8 @@ show them that they can see that more scalable - more elastic
 ---
 
 # Types of scalability
-- Vertical
-- Horizontal
+- Vertical | 
+- Horizontal |
 
 Note: 
 There are a few types of scalability
@@ -120,9 +120,9 @@ what does it mean?
 +++
 
 # Vertical scalability
-- boosting the server 
-- short term
-- limited
+- boosting the server |
+- short term |
+- limited |
 
 Note: 
 ability to be better when adding more ram, getting better cpu etc. 
@@ -132,11 +132,11 @@ there is a limit for that
 +++
 
 # Horizontal scalability
-- adding nodes 
-- having load balancer
-- long term
-- complicated
-- requires an architecture adapted for multiple nodes 
+- adding nodes |
+- having load balancer |
+- long term |
+- complicated |
+- requires an architecture adapted for multiple nodes |
 
 Note:
 1. ability to perform better when adding nodes. describe what node is. example with aws having eu and us nodes. 
@@ -154,7 +154,7 @@ Problems
 +++
 
 # Technology 
-- single node vs multiple nodes
+- single node vs multiple nodes |
 
 Note:
 1. proper architecture, for example node.js has only single node so it does not make sense. elixir
@@ -162,8 +162,8 @@ Note:
 +++
 
 # Explosions 
-- real explosions
-- power outage
+- real explosions |
+- power outage |
 
 Note: 
 what does it mean?
@@ -175,8 +175,8 @@ usually it happens automatically to change
 +++
 
 # Bottleneck
-- Database
-- Sharding
+- Database |
+- Sharding |
 
 Note:
 0.what is  the bottleneck? get a bottle. imagine performance of the system as the pouring water into the bottle - bottle neck is something that is making our pouring go very slow 
@@ -194,9 +194,9 @@ Elasticity is also about resilience. What is resilience? Ability to recover from
 +++
 
 # How to prevent errors? 
-- Monitoring
-- Reacting quickly
-- Automating everything
+- Monitoring |
+- Reacting quickly |
+- Automating everything |
 
 Note:
 0. we would like to of course prevent errors. is it possible? 
@@ -206,8 +206,8 @@ Note:
 
 +++
 
-# Failure is normal
-## We should design for errors because they happen
+# Failure is normal 
+## We should design for errors because they happen |
 
 Note:
 the truth is - we cannot really prevent them
