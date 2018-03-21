@@ -88,6 +88,7 @@ Note:
 Note:
 Describe what scaling means normally
 Describe what scalability is in cloud computing
+the capability of a system, network, or process to handle a growing amount of work
 give example with 100 users and 1 server, 1000 users and 10 or 20 servers
 
 +++
@@ -136,7 +137,6 @@ there is a limit for that
 - having load balancer |
 - long term |
 - complicated |
-- requires an architecture adapted for multiple nodes |
 
 Note:
 1. ability to perform better when adding nodes. describe what node is. example with aws having eu and us nodes. 
@@ -149,7 +149,7 @@ Note:
 
 ---
 
-Problems 
+# Problems 
 
 +++
 
@@ -158,6 +158,7 @@ Problems
 
 Note:
 1. proper architecture, for example node.js has only single node so it does not make sense. elixir
+erlang got 2 million concurrent users on one server
 
 +++
 
@@ -176,13 +177,16 @@ usually it happens automatically to change
 
 # Bottleneck
 - Database |
-- Sharding |
+- Horizontal Partitioning (Sharding) |
+- Vertical Partitioning |
 
 Note:
 0.what is  the bottleneck? get a bottle. imagine performance of the system as the pouring water into the bottle - bottle neck is something that is making our pouring go very slow 
 1. database is almost always a bottle neck
 its just slow. it is where all the data lays. 
-2. for that we are using sharding - what is sharding? still we have to have a good architecture for that. it is complicated. 
+2. for that we are using sharding - what is sharding? still we have to have a good architecture for that. it is complicated. For example we can have names from a to g in one db, from g to m in other etc.
+3. multiplying data. example with instagram table. 
+
 
 ---
 
