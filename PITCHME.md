@@ -3,6 +3,8 @@
 
 ### A GitPitch Presentation Template
 
+Note: 
+Test note i wonder how it works
 ---
 
 ## Tips!
